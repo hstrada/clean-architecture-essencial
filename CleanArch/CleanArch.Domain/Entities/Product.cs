@@ -4,9 +4,8 @@ using System.Collections.Generic;
 
 namespace CleanArch.Domain.Entities
 {
-    public sealed class Product
+    public sealed class Product : Entity
     {
-        public int Id { get; private set; }
         public string Name { get; private set; }
         public string Description { get; private set; }
         public decimal Price { get; private set; }

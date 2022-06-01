@@ -4,9 +4,8 @@ using System.Collections.Generic;
 
 namespace CleanArch.Domain.Entities
 {
-    public sealed class Category
+    public sealed class Category : Entity
     {
-        public int Id { get; private set; }
         public string Name { get; private set; }
 
         public Category(string name)
