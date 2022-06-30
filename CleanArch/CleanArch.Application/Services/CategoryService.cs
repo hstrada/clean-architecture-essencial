@@ -1,11 +1,9 @@
 ﻿using AutoMapper;
 using CleanArch.Application.DTOs;
 using CleanArch.Application.Interfaces;
+using CleanArch.Domain.Entities;
 using CleanArch.Domain.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CleanArch.Application.Services
@@ -14,37 +12,40 @@ namespace CleanArch.Application.Services
     {
         private ICategoryRepository _categoryRepository;
         private readonly IMapper _mapper;
-
         public CategoryService(ICategoryRepository categoryRepository, IMapper mapper)
         {
             _categoryRepository = categoryRepository;
             _mapper = mapper;
         }
-      
-        Task<CategoryDTO> ICategoryService.GetById(int? Id)
-        {
-            throw new NotImplementedException();
-        }
 
-        public async Task<IEnumerable<CategoryDTO>> ICategoryService.GetCategories()
+        public async Task<IEnumerable<CategoryDTO>> GetCategories()
         {
-            var categoriesEntity = _categoryRepository.GetCategories();
+            var categoriesEntity = await _categoryRepository.GetCategories();
             return _mapper.Map<IEnumerable<CategoryDTO>>(categoriesEntity);
         }
 
-        Task ICategoryService.Remove(int? Id)
+        public async Task<CategoryDTO> GetById(int? id)
         {
-            throw new NotImplementedException();
+            var categoryEntity = await _categoryRepository.GetById(id);
+            return _mapper.Map<CategoryDTO>(categoryEntity);
         }
 
-        Task ICategoryService.Update(CategoryDTO categoryDTO)
+        public async Task Add(CategoryDTO categoryDto)
         {
-            throw new NotImplementedException();
+            var categoryEntity = _mapper.Map<Category>(categoryDto);
+            await _categoryRepository.Create(categoryEntity);
         }
 
-        Task ICategoryService.Add(CategoryDTO categoryDTO)
+        public async Task Update(CategoryDTO categoryDto)
         {
-            throw new NotImplementedException();
+            var categoryEntity = _mapper.Map<Category>(categoryDto);
+            await _categoryRepository.Update(categoryEntity);
+        }
+
+        public async Task Remove(int? id)
+        {
+            var categoryEntity = _categoryRepository.GetById(id).Result;
+            await _categoryRepository.Remove(categoryEntity);
         }
     }
 }
