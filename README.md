@@ -1,3 +1,12 @@
+## Useful content
+
+If you run API project and want to see swagger, you can access:
+> https://localhost:5001/swagger/index.html
+
+## Requirements
+
+## Useful commands
+
 CleanArch.Infra.Data
 
 -- criar a migração
