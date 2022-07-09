@@ -2,6 +2,9 @@
 
 ![clean architecture](https://github.com/hstrada/clean-architecture-essencial/blob/master/.github/clean-arch-01.png?raw=true)
 
+You can check full course here:
+
+https://www.udemy.com/course/clean-architecture-essencial-asp-net-core-com-c/
 
 ## Requirements & technologies
 
