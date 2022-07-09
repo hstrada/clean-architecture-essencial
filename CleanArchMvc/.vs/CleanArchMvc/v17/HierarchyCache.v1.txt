@@ -1,0 +1,535 @@
+﻿++Solution 'CleanArchMvc' ‎(7 of 7 projects)
+i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.sln
+++CleanArchMvc.Infra.Data
+i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.Infra.Data
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\cleanarchmvc.infra.data.csproj
+++Dependencies
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:>708
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:>709
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:>1493
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:>842
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:>843
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:>844
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:>1496
+++Context
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\context\
+++EntitiesConfiguration
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\entitiesconfiguration\
+++Identity
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\identity\
+++ApplicationUser.cs
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\identity\applicationuser.cs
+++AuthenticateService.cs
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\identity\authenticateservice.cs
+++SeedUserRoleInitial.cs
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\identity\seeduserroleinitial.cs
+++Repositories
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\repositories\
+++Analyzers
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:analyzers
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:analyzers
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:analyzers
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:analyzers
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:analyzers
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:analyzers
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:analyzers
+++Frameworks
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:frameworks
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:frameworks
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:frameworks
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:frameworks
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:frameworks
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:frameworks
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:frameworks
+++Packages
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:packages
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:packages
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:packages
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:packages
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:packages
+++Projects
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:projects
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:projects
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:projects
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:projects
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:projects
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:projects
+++ApplicationDbContext.cs
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\context\applicationdbcontext.cs
+++CategoryConfiguration.cs
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\entitiesconfiguration\categoryconfiguration.cs
+++ProductConfiguration.cs
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\entitiesconfiguration\productconfiguration.cs
+++CategoryRepository.cs
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\repositories\categoryrepository.cs
+++ProductRepository.cs
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\repositories\productrepository.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\users\administrador\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\users\administrador\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\users\administrador\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\users\administrador\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\users\administrador\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.data\microsoft.netcore.app
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.ioc\microsoft.netcore.app
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\microsoft.netcore.app
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\microsoft.netcore.app
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain.tests\microsoft.netcore.app
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\microsoft.netcore.app
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\microsoft.netcore.app
+++Microsoft.AspNetCore.Identity (2.2.0)
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:>1529
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.5)
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:>1530
+++Microsoft.EntityFrameworkCore.Design (6.0.5)
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:>1528
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.5)
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:>1527
+++Microsoft.EntityFrameworkCore.Tools (6.0.5)
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:>1531
+++CleanArchMvc.Domain
+i:{cf1ebca5-51fa-465d-9095-780e1db1497f}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\cleanarchmvc.domain.csproj
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\cleanarchmvc.domain.csproj
+i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.Domain
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\cleanarchmvc.domain.csproj
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\cleanarchmvc.domain.csproj
+++CleanArchMvc.Infra.IoC
+i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.Infra.IoC
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.ioc\cleanarchmvc.infra.ioc.csproj
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.ioc\cleanarchmvc.infra.ioc.csproj
+++DependencyInjection.cs
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.ioc\dependencyinjection.cs
+++DependencyInjectionAPI.cs
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.ioc\dependencyinjectionapi.cs
+++DependencyInjectionJWT.cs
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.ioc\dependencyinjectionjwt.cs
+++DependencyInjectionSwagger.cs
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.infra.ioc\dependencyinjectionswagger.cs
+++Microsoft.AspNetCore.App.Analyzers
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:>1553
+++MediatR.Extensions.Microsoft.DependencyInjection (10.0.1)
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:>1557
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.5)
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:>1556
+++Swashbuckle.AspNetCore.Swagger (6.3.1)
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:>1554
+++Swashbuckle.AspNetCore.SwaggerGen (6.3.1)
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:>1555
+++Swashbuckle.AspNetCore.SwaggerUI (6.3.1)
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:>1558
+++CleanArchMvc.Application
+i:{3d54e74c-3027-41c2-9eba-a8f77810c1c6}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\cleanarchmvc.application.csproj
+i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.Application
+++CleanArchMvc.API
+i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.API
+++Connected Services 
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:>1236
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:>1494
+++Properties
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\properties\
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\properties\
+++Controllers
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\controllers\
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\controllers\
+++Models
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\models\
+++LoginModel.cs
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\models\loginmodel.cs
+++UserToken.cs
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\models\usertoken.cs
+++appsettings.json
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\appsettings.json
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\appsettings.json
+++Program.cs
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\program.cs
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\program.cs
+++No service dependencies discovered
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:>1237
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:>1495
+++launchSettings.json
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\properties\launchsettings.json
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\properties\launchsettings.json
+++CategoriesController.cs
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\controllers\categoriescontroller.cs
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\controllers\categoriescontroller.cs
+++ProductsController.cs
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\controllers\productscontroller.cs
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\controllers\productscontroller.cs
+++TokenController.cs
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\controllers\tokencontroller.cs
+++appsettings.Development.json
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\appsettings.development.json
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.api\microsoft.aspnetcore.app
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\microsoft.aspnetcore.app
+++Swashbuckle.AspNetCore (6.2.3)
+i:{5149593a-9b16-401d-927e-a3c05df78a07}:>1518
+++Account
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\account\
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\account\
+++Entities
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\entities\
+++Interfaces
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\interfaces\
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\interfaces\
+++Validation
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\validation\
+++IAuthenticate.cs
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\account\iauthenticate.cs
+++ISeedUserRoleInitial.cs
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\account\iseeduserroleinitial.cs
+++Category.cs
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\entities\category.cs
+++Entity.cs
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\entities\entity.cs
+++Product.cs
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\entities\product.cs
+++ICategoryRepository.cs
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\interfaces\icategoryrepository.cs
+++IProductRepository.cs
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\interfaces\iproductrepository.cs
+++DomainExceptionValidation.cs
+i:{551d19c8-e837-41df-a9c1-bcc99714c676}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain\validation\domainexceptionvalidation.cs
+++CleanArchMvc.Domain.Tests
+i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.Domain.Tests
+++CategoryUnitTest1.cs
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain.tests\categoryunittest1.cs
+++ProductUnitTest1.cs
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.domain.tests\productunittest1.cs
+++xunit.analyzers
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:c:\users\administrador\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++coverlet.collector (3.1.2)
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:>1544
+++FluentAssertions (6.7.0)
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:>1541
+++Microsoft.NET.Test.Sdk (17.2.0)
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:>1540
+++xunit (2.4.1)
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:>1542
+++xunit.runner.visualstudio (2.4.5)
+i:{80d788cf-9006-4a21-a4f1-d85eb3cd486c}:>1543
+++DTOs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\dtos\
+++Mappings
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\mappings\
+++Products
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\products\
+++Services
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\services\
+++CategoryDTO.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\dtos\categorydto.cs
+++ProductDTO.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\dtos\productdto.cs
+++ICategoryService.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\interfaces\icategoryservice.cs
+++IProductService.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\interfaces\iproductservice.cs
+++DomainToDTOMappingProfile.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\mappings\domaintodtomappingprofile.cs
+++DTOToCommandMappingProfile.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\mappings\dtotocommandmappingprofile.cs
+++Commands
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\commands\
+++Handlers
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\handlers\
+++Queries
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\queries\
+++CategoryService.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\services\categoryservice.cs
+++ProductService.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\services\productservice.cs
+++AutoMapper (11.0.0)
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:>1570
+++MediatR (10.0.1)
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:>1569
+++ProductCommand.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\commands\productcommand.cs
+++ProductCreateCommand.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\commands\productcreatecommand.cs
+++ProductRemoveCommand.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\commands\productremovecommand.cs
+++ProductUpdateCommand.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\commands\productupdatecommand.cs
+++GetProductByIdQueryHandler.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\handlers\getproductbyidqueryhandler.cs
+++GetProductsQueryHandler.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\handlers\getproductsqueryhandler.cs
+++ProductCreateCommandHandler.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\handlers\productcreatecommandhandler.cs
+++ProductRemoveCommandHandler.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\handlers\productremovecommandhandler.cs
+++ProductUpdateCommandHandler.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\handlers\productupdatecommandhandler.cs
+++GetProductByIdQuery.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\queries\getproductbyidquery.cs
+++GetProductsQuery.cs
+i:{8358d920-6e35-47c2-8201-92c4fc126bfd}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.application\products\queries\getproductsquery.cs
+++CleanArchMvc.WebUI
+i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.WebUI
+++wwwroot
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\
+++ViewModels
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\viewmodels\
+++Views
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\
+++css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\css\
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\
+++images
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\
+++js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\js\
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\
+++favicon.ico
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\favicon.ico
+++AccountController.cs
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\controllers\accountcontroller.cs
+++HomeController.cs
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\controllers\homecontroller.cs
+++LoginViewModel.cs
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\viewmodels\loginviewmodel.cs
+++RegisterViewModel.cs
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\viewmodels\registerviewmodel.cs
+++Categories
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\categories\
+++Home
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\home\
+++Shared
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\shared\
+++_ViewImports.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\_viewstart.cshtml
+++site.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\css\site.css
+++borracha1.jpg
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\borracha1.jpg
+++caderno1.jpg
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\caderno1.jpg
+++calculadora1.jpg
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\calculadora1.jpg
+++cartilha1.jpg
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\cartilha1.jpg
+++catalog.png
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\catalog.png
+++catalogo1.png
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\catalogo1.png
+++estojo1.jpg
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\estojo1.jpg
+++noimage.jpg
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\noimage.jpg
+++noimage.png
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\noimage.png
+++site.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\js\site.js
+++bootstrap
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\
+++jquery
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery\
+++jquery-validation
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation-unobtrusive\
+++Login.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\account\login.cshtml
+++Register.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\account\register.cshtml
+++Create.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\categories\create.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\products\create.cshtml
+++Delete.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\categories\delete.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\products\delete.cshtml
+++Details.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\categories\details.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\products\details.cshtml
+++Edit.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\categories\edit.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\products\edit.cshtml
+++Index.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\categories\index.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\home\index.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\products\index.cshtml
+++Privacy.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\home\privacy.cshtml
+++_Layout.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\shared\_layout.cshtml
+++_LoginPartial.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\shared\_loginpartial.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\shared\_validationscriptspartial.cshtml
+++dist
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery\dist\
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery\license.txt
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++_Layout.cshtml.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\views\shared\_layout.cshtml.css
+++jquery.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{fb4dbbeb-53b0-49ce-81d9-6382a6da95e7}:c:\_git\clean-architecture-essencial\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
