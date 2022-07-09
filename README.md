@@ -5,7 +5,7 @@ Admin:
 ```json
 {
   "email": "admin@localhost",
-  "password": "Numsey#2021"
+  "password": "admin#123456"
 }
 ```
 
@@ -14,7 +14,7 @@ Usuário:
 ```json
 {
   "email": "usuario@localhost",
-  "password": "Numsey#2021"
+  "password": "usuario#123456"
 }
 ```
 

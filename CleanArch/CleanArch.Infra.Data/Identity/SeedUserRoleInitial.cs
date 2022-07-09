@@ -33,7 +33,7 @@ namespace CleanArch.Infra.Data.Identity
                 user.LockoutEnabled = false;
                 user.SecurityStamp = Guid.NewGuid().ToString();
 
-                IdentityResult result = _userManager.CreateAsync(user, "Numsey#2021").Result;
+                IdentityResult result = _userManager.CreateAsync(user, "usuario#123456").Result;
 
                 if (result.Succeeded)
                 {
@@ -52,7 +52,7 @@ namespace CleanArch.Infra.Data.Identity
                 user.LockoutEnabled = false;
                 user.SecurityStamp = Guid.NewGuid().ToString();
 
-                IdentityResult result = _userManager.CreateAsync(user, "Numsey#2021").Result;
+                IdentityResult result = _userManager.CreateAsync(user, "admin#123456").Result;
 
                 if (result.Succeeded)
                 {
