@@ -19,10 +19,30 @@ namespace CleanArch.API.Controllers
         private readonly IAuthenticate _authentication;
         private readonly IConfiguration _configuration;
 
-        public TokenController(IAuthenticate authenticate, IConfiguration configuration)
+        public TokenController(IAuthenticate authentication, IConfiguration configuration)
         {
-            _authentication = authenticate;
+            _authentication = authentication ??
+                 throw new ArgumentNullException(nameof(authentication));
             _configuration = configuration;
+        }
+
+
+        [HttpPost("CreateUser")]
+        // [ApiExplorerSettings(IgnoreApi = true)] // para ignorar na interface do swagger
+        public async Task<ActionResult> CreateUser([FromBody] LoginModel userInfo)
+        {
+            var result = await _authentication.RegisterUser(userInfo.Email, userInfo.Password);
+
+            if (result)
+            {
+                //return GenerateToken(userInfo);
+                return Ok($"User {userInfo.Email} was created successfully");
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Invalid Login attempt.");
+                return BadRequest(ModelState);
+            }
         }
 
         [HttpPost("LoginUser")]
